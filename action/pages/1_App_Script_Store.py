@@ -46,7 +46,7 @@ for app in apps:
         
         with col1:
             if st.button("Enter ", key=str(app[0])+' run', on_click=run_app, args=[app[0]]):
-                st.switch_page("pages/2_Running.py")
+                st.switch_page("pages/2_App_Execution.py")
                 
         with col2:
             st.button("Delete", key=app[0], on_click=on_delete_app, args=[app[0]])

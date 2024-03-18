@@ -6,7 +6,7 @@ from sqlalchemy.orm import joinedload
 from model import App, Task, session_factory
 
 st.set_page_config(
-    page_title="Running",
+    page_title="App Execution",
     page_icon="🚀",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -140,7 +140,7 @@ else:
         st.markdown(tasks_list)
 
         
-        st.write(f":hammer_and_wrench: Profile Configuration")
+        st.write(f":hammer_and_wrench: Configuration")
         profile_list = eval(app.profile_list)
         df = pd.DataFrame(
             [
@@ -150,7 +150,7 @@ else:
         edited_profile_list = st.data_editor( 
             df, 
             column_config={
-                'name':st.column_config.TextColumn('Name', required=True), 
+                'name':None, 
                 'description':st.column_config.TextColumn('Description', required=True), 
                 'value':st.column_config.TextColumn('Value', required=True)
             },
