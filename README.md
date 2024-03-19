@@ -10,7 +10,7 @@ The rapid development and applications of Large Language Model (LLM) technology 
 
 ### Video
 
-
+[![NLC](https://res.cloudinary.com/marcomontalbano/image/upload/v1710810802/video_to_markdown/images/youtube---ArrAtsIO5w-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-ArrAtsIO5w "NLC")
 
 ### Planning
 
